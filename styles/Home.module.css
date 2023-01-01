@@ -7,6 +7,19 @@
   min-height: 100vh;
 }
 
+.intro {
+  height: 100vh;
+}
+
+.sponsors {
+  background-color: #1ABFDA;
+  height: 50vh;
+}
+
+.faq {
+  height: 50vh;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
