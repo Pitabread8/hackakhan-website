@@ -23,11 +23,6 @@
     #00000010,
     #00000080
   );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,11 +41,6 @@
       #ffffff10,
       #ffffff80
     );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
   }
 }
 
@@ -67,8 +57,9 @@ body {
 }
 
 body {
-  background: var(--color-primary);
-  color: rgb(var(--color-secondary));
+  @apply bg-white dark:bg-black;
+  @apply text-black dark:text-white;
+  @apply font-sans;
 }
 
 section {
