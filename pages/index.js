@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/navbar'
+import Typewriter from 'typewriter-effect';
+import { FaInstagram } from 'react-icons/fa';
+import { FaRegEnvelope } from 'react-icons/fa';
 
 export default function Site() {
   return (
@@ -13,89 +16,24 @@ export default function Site() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <NavBar></NavBar>
-        <section className={styles.intro} id="intro"></section>
-        <section className={styles.sponsors} id="sponsors"></section>
-        <section className={styles.faq} id="faq"></section>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
+        {/* <NavBar></NavBar> */}
+        <section className="h-screen flex justify-center items-center flex-col gap-2" id="intro">
+          <h1 className="mb-4 text-5xl text-center font-bold text-black md:text-6xl lg:text-7xl dark:text-white">HackaKhan</h1>
+          <div className="mb-4 text-1xl text-center font-mono text-black md:text-2xl lg:text-3xl dark:text-white">
+            <Typewriter onInit={(typewriter) => { typewriter.typeString("Coming Summer 2023").start(); }}/>
           </div>
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
+          <div className="flex justify-center items-center gap-3 mb-4 h-auto">
+            <a href="https://www.instagram.com/hackakhan_" target="_blank" rel="noreferrer" aria-label="Instagram">
+              <FaInstagram size={48} className="text-black dark:text-white" />
+            </a>
+            <a href="mailto:hackakhancontact@gmail.com" target="_blank" rel="noreferrer" aria-label="Email">
+              <FaRegEnvelope size={48} className=" text-black dark:text-white" />
+            </a>
+          </div>
+        </section>
+        {/* <section className="bg-dark-blue h-[50vh]" id="sponsors"></section> */}
+        {/* <section className="h-[50vh]" id="faq"></section> */}
+        <footer className="fixed bottom-0 mb-4">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
       </main>
     </>
   )
