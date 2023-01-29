@@ -17,7 +17,7 @@ export default function NavBar() {
                             <Link href="#faq" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-green md:p-0">FAQ</Link>
                         </li>
                         <li>
-                            <Link href="#" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-green md:p-0">Pre-Register</Link>
+                            <Link href="/pre-register" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-green md:p-0">Pre-Register</Link>
                         </li>
                     </ul>
                 </div>
