@@ -19,9 +19,9 @@ export default function Site() {
       <main>
         {/* <NavBar></NavBar> */}
         <section className="h-screen flex justify-center items-center flex-col gap-2" id="intro">
-          <div className="w-screen fixed top-0 text-center opacity-90 bg-black dark:bg-white">
+          {/* <div className="w-screen fixed top-0 text-center opacity-90 bg-black dark:bg-white">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="#" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
-          </div>
+          </div> */}
           <Image className="mb-4"
             src={Logo}
             width={128}
@@ -39,13 +39,13 @@ export default function Site() {
               <FaRegEnvelope size={48} />
             </a>
           </div>
-          <div className="mt-10 p-4 border border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
-            <Link href="/pre-register" scroll={false} className="text-2x md:text-3xl lg:text-4xl">Pre-Register!</Link>
-          </div>
+          <Link href="/pre-register" scroll={false} className="mt-10 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
+            <p className="text-2x md:text-3xl lg:text-4xl">Pre-Register!</p>
+          </Link>
         </section>
         {/* <section className="bg-dark-blue h-[50vh]" id="sponsors"></section> */}
         {/* <section className="h-[50vh]" id="faq"></section> */}
-        <footer className="fixed bottom-0 mb-4">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
+        {/* <footer className="fixed bottom-0 mb-4">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer> */}
       </main>
     </>
   )
