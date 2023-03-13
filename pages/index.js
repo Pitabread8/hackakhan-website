@@ -29,7 +29,7 @@ export default function Site() {
           />
           <h1 className="mb-4 text-5xl font-bold md:text-6xl lg:text-7xl">HackaKhan</h1>
           <div className="mb-4 text-xl md:text-2xl lg:text-3xl">
-            <Typewriter onInit={(typewriter) => { typewriter.typeString("June 10, 2023").start(); }} />
+            <Typewriter onInit={(typewriter) => { typewriter.typeString("June 10 2023").start(); }} />
           </div>
           <div className="flex justify-center items-center gap-3 mb-4 h-auto">
             <a href="https://www.instagram.com/hackakhan_" target="_blank" rel="noreferrer" aria-label="Instagram">
