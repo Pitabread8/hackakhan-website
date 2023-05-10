@@ -6,7 +6,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/pre-register',
+        source: '/register',
         destination: 'https://docs.google.com/forms/d/e/1FAIpQLSdt9uy6hXMq6LT0aJKJZWOW96olBscj69L01gvKTW_sj5HOAA/viewform?usp=sf_link',
         permanent: false,
       },

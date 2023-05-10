@@ -39,8 +39,8 @@ export default function Site() {
               <FaRegEnvelope size={48} />
             </a>
           </div>
-          <Link href="/pre-register" scroll={false} className="mt-10 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
-            <p className="text-2x md:text-3xl lg:text-4xl">Pre-Register!</p>
+          <Link href="/register" scroll={false} className="mt-10 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
+            <p className="text-2x md:text-3xl lg:text-4xl">Register!</p>
           </Link>
         </section>
         {/* <section className="bg-dark-blue h-[50vh]" id="sponsors"></section> */}
