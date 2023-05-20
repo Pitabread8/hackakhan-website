@@ -21,7 +21,7 @@ export default function Site() {
       <main>
         {/* <NavBar></NavBar> */}
         <section className="h-screen flex justify-center items-center flex-col gap-2" id="intro">
-          <div className="w-screen fixed top-0 text-center opacity-90 bg-black dark:bg-white">
+          <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
           </div>
           <Image className="mb-4"
@@ -50,7 +50,7 @@ export default function Site() {
         <Schedule></Schedule>
         {/* <section className="bg-dark-blue h-[50vh]" id="sponsors"></section> */}
         {/* <section className="h-[50vh]" id="faq"></section> */}
-        <footer className="fixed bottom-0 mb-4">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
+        <footer className="fixed bottom-0 mb-4 hidden md:block lg:block md:text-lg lg:text-xl">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
       </main>
     </>
   )
