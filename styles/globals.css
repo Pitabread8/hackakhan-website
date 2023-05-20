@@ -34,6 +34,22 @@ a {
   text-decoration: none;
 }
 
+th {
+  text-transform: uppercase;
+}
+
+th, td {
+  @apply p-1.5;
+}
+
+/* tr:nth-child(n):nth-child(-n+4)>td:nth-child(1):after {
+  content: " AM";
+}
+
+tr:nth-child(n+5):nth-child(-n+7)>td:nth-child(1):after {
+  content: " PM";
+} */
+
 main {
   display: flex;
   flex-direction: column;
