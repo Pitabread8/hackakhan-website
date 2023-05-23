@@ -1,3 +1,6 @@
+// fix table on mobile
+// footer background?
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '/public/logo.png'
@@ -41,10 +44,10 @@ export default function Site() {
               <FaRegEnvelope size={48} />
             </a>
           </div>
-          <Link href="/register" scroll={false} className="mt-10 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
+          <Link href="/register" scroll={false} className="mt-6 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
             <p className="text-2x md:text-3xl lg:text-4xl">Register!</p>
           </Link>
-          <FaLongArrowAltDown className="mt-36" size={64} />
+          <FaLongArrowAltDown className="mt-4" size={64} />
         </section>
         <hr className="w-screen h-2 bg-black dark:bg-white" />
         <Schedule></Schedule>
