@@ -1,5 +1,6 @@
 // fix table on mobile
-// footer background?
+// footer background
+// about section
 
 import Head from 'next/head'
 import Image from 'next/image'
@@ -7,6 +8,7 @@ import Logo from '/public/logo.png'
 import Link from 'next/link'
 // import NavBar from '../components/navbar'
 import Schedule from '../components/schedule'
+import Sponsors from '../components/sponsors'
 import Typewriter from 'typewriter-effect';
 import { FaInstagram } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
@@ -50,10 +52,13 @@ export default function Site() {
           <FaLongArrowAltDown className="mt-4" size={64} />
         </section>
         <hr className="w-screen h-2 bg-black dark:bg-white" />
-        <Schedule></Schedule>
+        <div className="h-max flex flex-col gap-8 items-center justify-start p-20 md:flex-row md:items-start">
+          <Schedule></Schedule>
+          <Sponsors></Sponsors>
+        </div>
         {/* <section className="bg-dark-blue h-[50vh]" id="sponsors"></section> */}
         {/* <section className="h-[50vh]" id="faq"></section> */}
-        <footer className="fixed bottom-0 mb-4 hidden md:block lg:block md:text-lg lg:text-xl">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
+        <footer className="fixed bottom-0 mb-4 hidden md:block md:text-lg lg:text-xl">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
       </main>
     </>
   )
