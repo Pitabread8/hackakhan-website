@@ -25,10 +25,6 @@ body {
   @apply font-mono;
 }
 
-section {
-  width: 100vw;
-}
-
 a {
   color: inherit;
   text-decoration: none;
