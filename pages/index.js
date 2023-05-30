@@ -1,10 +1,11 @@
 // fix table on mobile
 // fix scroll (spacing, background, parallax)
 // footer background
-// about section (theme, teams, etc.)
+// about section (theme, teams, etc.) line break
 // map component
 // move global css to tailwind style
 // sponsor section background
+// mobile horizontal overflow?
 
 import Head from 'next/head'
 import Image from 'next/image'
@@ -64,7 +65,7 @@ export default function Site() {
           </Link>
         </section>
         {/* <hr className="w-screen h-2 bg-black dark:bg-white" /> */}
-        <section className="w-screen h-screen flex flex-col gap-8 items-center justify-center p-20 md:flex-row md:items-start" id="info">
+        <section className="w-screen h-max flex flex-col gap-8 items-center justify-center p-2 md:p-20 md:flex-row md:items-start" id="info">
           <About></About>
           <Schedule></Schedule>
           <Sponsors></Sponsors>
