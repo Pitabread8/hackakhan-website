@@ -5,7 +5,7 @@ export default function Sponsors() {
             <p className="font-sans">
                 HackaKhan, <a href="https://khanlabschool.org/" target="_blank" rel="noreferrer" className="underline">
                     Khan Lab School
-                </a>'s first hackathon, will take place on June 10th, 2023, from 8:30 am to 11:00 pm.
+                </a>&apos;s first hackathon, will take place on June 10th, 2023, from 8:30 am to 11:00 pm.
                 It will be at the KLS campus in Mountain View, CA, and is open to all middle and high school students aged 13 to 18 in the Bay Area.
                 The theme is <a href="https://en.wikipedia.org/wiki/Educational_technology" target="_blank" rel="noreferrer" className="underline">
                     Education Technology
