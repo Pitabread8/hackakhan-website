@@ -23,7 +23,7 @@ export default function Schedule() {
                         <td><time>9:00 AM</time></td>
                     </tr>
                     <tr>
-                        <td>Hacking</td>
+                        <td>Hacking Begins</td>
                         <td><time>9:00 AM</time></td>
                     </tr>
                     <tr>
@@ -51,7 +51,7 @@ export default function Schedule() {
                         <td><time>6:00 PM</time></td>
                     </tr>
                     <tr>
-                        <td>Judging</td>
+                        <td>Hacking Ends, Judging Begins</td>
                         <td><time>9:00 PM</time></td>
                     </tr>
                     <tr>
