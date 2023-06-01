@@ -4,17 +4,15 @@ import Wolfram from '/public/wolfram.png'
 
 export default function Sponsors() {
     return (
-        <div className="bg-white dark:bg-black px-2 sm:px-4 py-2.5 flex flex-col justify-center items-center">
+        <div className="bg-white dark:bg-black md:w-1/2 px-2 sm:px-4 py-2.5 flex flex-col justify-center items-center self-stretch">
             <h2 className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">Sponsors</h2>
-            <div className="flex flex-row justify-center items-center bg-white rounded-xl md:flex-col">
-                <Image className="mb-4"
+            <div className="p-4 flex flex-row justify-center items-center dark:bg-white rounded-xl md:flex-row w-full h-full">
+                <Image className="my-2 w-1/3"
                     src={Wolfram}
-                    width={128}
                     alt="Wolfram Logo"
                 />
-                <Image className="mb-4"
+                <Image className="my-2 w-1/3"
                     src={KLS}
-                    width={128}
                     alt="KLS Logo"
                 />
             </div>

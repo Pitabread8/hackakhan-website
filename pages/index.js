@@ -1,20 +1,18 @@
-// fix table on mobile
-// fix scroll (spacing, background, parallax)
 // footer background
 // about section (theme, teams, etc.) line break
-// map component
 // move global css to tailwind style
-// sponsor section background
-// mobile horizontal overflow?
+// image sizing/spacing
+// column width
 
 import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '/public/logo.png'
 import Link from 'next/link'
 // import NavBar from '../components/navbar'
-import Schedule from '../components/schedule'
 import About from '../components/about'
 import Sponsors from '../components/sponsors'
+import Schedule from '../components/schedule'
+import Map from '../components/map'
 import Typewriter from 'typewriter-effect';
 import { FaInstagram } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
@@ -60,16 +58,18 @@ export default function Site() {
           <Link href="/register" scroll={false} className="mt-6 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
             <p className="text-2x md:text-3xl lg:text-4xl">Register!</p>
           </Link>
-          <Link href="#info" scroll={false} className="scroll-smooth">
+          {/* <Link href="#info" scroll={false} className="scroll-smooth"> */}
             <FaLongArrowAltDown className="mt-4" size={64} />
-          </Link>
+          {/* </Link> */}
         </section>
         {/* <hr className="w-screen h-2 bg-black dark:bg-white" /> */}
-        <section className="w-screen h-max flex flex-col gap-8 items-center justify-center p-2 md:p-20 md:flex-row md:items-start" id="info">
+        <section className="w-screen h-max mb-4 md:mb-8 flex flex-col gap-8 items-center justify-center px-2 md:px-20 md:flex-row md:items-start">
           <About></About>
-          <Schedule></Schedule>
           <Sponsors></Sponsors>
-          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101439.09369263265!2d-122.16327054357284!3d37.390502058461514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb1f7c5bf5613%3A0x5b126664a7c5cefb!2sKhan%20Lab%20School!5e0!3m2!1sen!2sus!4v1685389296310!5m2!1sen!2sus" className="w-auto h-auto" style={{style: "border: 0", allowfullscreen: "", loading: "lazy", referrerpolicy: "no-referrer-when-downgrade"}}></iframe> */}
+        </section>
+        <section className="w-screen h-max mt-4 md:mt-8 md:mb-16 flex flex-col gap-8 items-center justify-center px-2 md:px-20 md:flex-row md:items-start">
+          <Schedule></Schedule>
+          <Map></Map>
         </section>
         {/* <section className="bg-dark-blue h-[50vh]" id="sponsors"></section> */}
         {/* <section className="h-[50vh]" id="faq"></section> */}

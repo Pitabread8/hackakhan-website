@@ -1,8 +1,8 @@
 export default function Sponsors() {
     return (
-        <div className="bg-white dark:bg-black px-2 sm:px-4 py-2.5 flex flex-col justify-center items-center">
+        <div className="bg-white dark:bg-black md:w-1/2 px-2 sm:px-4 py-2.5 flex flex-col justify-center items-center">
             <h2 className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">About</h2>
-            <p className="font-sans">
+            <p className="font-sans p-4 dark:bg-white dark:text-black rounded-xl">
                 HackaKhan, <a href="https://khanlabschool.org/" target="_blank" rel="noreferrer" className="underline">
                     Khan Lab School
                 </a>&apos;s first hackathon, will take place on June 10th, 2023, from 8:30 am to 11:00 pm.
