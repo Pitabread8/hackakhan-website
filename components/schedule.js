@@ -19,10 +19,6 @@ export default function Schedule() {
                         <td><time>8:30 AM</time></td>
                     </tr>
                     <tr>
-                        <td>Mini-TWOW Begins</td>
-                        <td><time>9:00 AM</time></td>
-                    </tr>
-                    <tr>
                         <td>Hacking Begins</td>
                         <td><time>9:00 AM</time></td>
                     </tr>
