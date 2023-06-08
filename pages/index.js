@@ -1,5 +1,3 @@
-// footer background
-// about section (theme, teams, etc.) line break
 // move global css to tailwind style
 // image sizing/spacing
 // column width
@@ -55,9 +53,9 @@ export default function Site() {
               <FaRegEnvelope size={48} />
             </a>
           </div>
-          <Link href="/waitlist" scroll={false} className="mt-6 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
-            <p className="text-2x md:text-3xl lg:text-4xl">Join the Waitlist!</p>
-          </Link>
+          {/* <Link href="/waitlist" scroll={false} className="mt-6 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black"> */}
+            {/* <p className="text-2x md:text-3xl lg:text-4xl">Join the Waitlist!</p> */}
+          {/* </Link> */}
           {/* <Link href="#info" scroll={false} className="scroll-smooth"> */}
             <FaLongArrowAltDown className="mt-4" size={64} />
           {/* </Link> */}
@@ -73,7 +71,7 @@ export default function Site() {
         </section>
         {/* <section className="bg-dark-blue h-[50vh]" id="sponsors"></section> */}
         {/* <section className="h-[50vh]" id="faq"></section> */}
-        <footer className="fixed bottom-0 mb-4 hidden md:block md:text-lg lg:text-xl">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
+        <footer className="w-screen text-center bg-black fixed bottom-0 py-4 hidden md:block md:text-lg lg:text-xl">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
       </main>
     </>
   )

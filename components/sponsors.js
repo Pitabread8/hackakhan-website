@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import KLS from '/public/kls.png'
 import Wolfram from '/public/wolfram.png'
+import VaSi from '/public/vasi.png'
 
 export default function Sponsors() {
     return (
@@ -10,6 +11,10 @@ export default function Sponsors() {
                 <Image className="my-2 w-1/3"
                     src={Wolfram}
                     alt="Wolfram Logo"
+                />
+                <Image className="my-2 w-1/3"
+                    src={VaSi}
+                    alt="VaSi Logo"
                 />
                 <Image className="my-2 w-1/3"
                     src={KLS}

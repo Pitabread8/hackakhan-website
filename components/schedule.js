@@ -23,11 +23,11 @@ export default function Schedule() {
                         <td><time>9:00 AM</time></td>
                     </tr>
                     <tr>
-                        <td>Speaker</td>
+                        <td>Keynote Speaker: Mar Hershenson</td>
                         <td><time>11:30 AM</time></td>
                     </tr>
                     <tr>
-                        <td>Lunch (provided)</td>
+                        <td>Lunch (provided): Ike's Sandwiches</td>
                         <td><time>12:00 PM</time></td>
                     </tr>
                     <tr>
@@ -43,7 +43,7 @@ export default function Schedule() {
                         <td><time>4:30 PM</time></td>
                     </tr>
                     <tr>
-                        <td>Dinner (provided)</td>
+                        <td>Dinner (provided): Costco Pizza</td>
                         <td><time>6:00 PM</time></td>
                     </tr>
                     <tr>
