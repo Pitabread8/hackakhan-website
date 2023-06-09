@@ -1,6 +1,7 @@
 // move global css to tailwind style
 // image sizing/spacing
 // column width
+// fix sponsor logos
 
 import Head from 'next/head'
 import Image from 'next/image'
