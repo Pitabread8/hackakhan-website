@@ -23,8 +23,8 @@ export default function Schedule() {
                         <td><time>9:00 AM</time></td>
                     </tr>
                     <tr>
-                        <td>Keynote Speaker: Mar Hershenson</td>
-                        <td><time>11:30 AM</time></td>
+                        <td>Git & GitHub Workshop</td>
+                        <td><time>11:00 AM</time></td>
                     </tr>
                     <tr>
                         <td>Lunch (provided): Ike&apos;s Sandwiches</td>
@@ -32,22 +32,18 @@ export default function Schedule() {
                     </tr>
                     <tr>
                         <td>SQL Workshop</td>
-                        <td><time>2:00 PM</time></td>
+                        <td><time>1:00 PM</time></td>
                     </tr>
                     <tr>
-                        <td>SSBU/MarioKart Tournament</td>
-                        <td><time>3:00 PM</time></td>
-                    </tr>
-                    <tr>
-                        <td>Git & GitHub Workshop</td>
-                        <td><time>4:30 PM</time></td>
+                        <td>Keynote Speaker: Mar Hershenson</td>
+                        <td><time>3:30 PM</time></td>
                     </tr>
                     <tr>
                         <td>Dinner (provided): Costco Pizza</td>
                         <td><time>6:00 PM</time></td>
                     </tr>
                     <tr>
-                        <td>Hacking Ends, Judging Begins</td>
+                        <td>Hacking Ends, Judging & SSBU Tournament Begin</td>
                         <td><time>9:00 PM</time></td>
                     </tr>
                     <tr>
