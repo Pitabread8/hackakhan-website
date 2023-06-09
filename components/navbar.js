@@ -1,11 +1,12 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function NavBar() {
     return (
         <nav className="bg-purple px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
             <div className="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="#intro" className="flex items-center">
-                    <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo"></img>
+                    <Image src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo"></Image>
                     <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">HackaKhan</span>
                 </a>
                 <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">

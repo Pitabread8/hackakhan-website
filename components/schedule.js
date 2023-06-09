@@ -27,7 +27,7 @@ export default function Schedule() {
                         <td><time>11:30 AM</time></td>
                     </tr>
                     <tr>
-                        <td>Lunch (provided): Ike's Sandwiches</td>
+                        <td>Lunch (provided): Ike&apos;s Sandwiches</td>
                         <td><time>12:00 PM</time></td>
                     </tr>
                     <tr>
