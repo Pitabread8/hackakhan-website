@@ -19,6 +19,11 @@ module.exports = {
         source: '/discord',
         destination: 'https://discord.gg/AyEycmKE',
         permanent: false,
+      },
+      {
+        source: '/rubric',
+        destination: 'https://docs.google.com/forms/d/e/1FAIpQLScdQU6D-vqAOQyHoW37foBeUwNXCHJJ6k65XnrAmfe49Oorlg/viewform?usp=sf_link',
+        permanent: false,
       }
     ]
   },
