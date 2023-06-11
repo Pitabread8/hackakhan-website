@@ -27,7 +27,7 @@ export default function Judges() {
             </div>
             <h2 className="text-2xl">Vandana Sikka</h2>
             <div className="font-sans p-4 dark:bg-white dark:text-black rounded-xl abt mb-4">
-              <p>Vandana is a Computer Scientist. One of the early computer science graduate women, she is an Entrepreneur and founder of Learnee (a sponsor of this Hackathon). She is also a Board Member at Code.org, the world's largest nonprofit focused on Coding and CS literacy.</p>
+              <p>Vandana is a Computer Scientist. One of the early computer science graduate women, she is an Entrepreneur and founder of Learnee (a sponsor of this Hackathon). She is also a Board Member at Code.org, the world&apos;s largest nonprofit focused on Coding and CS literacy.</p>
             </div>
             <h2 className="text-2xl">Vishal Sikka</h2>
             <div className="font-sans p-4 dark:bg-white dark:text-black rounded-xl abt mb-4">
@@ -55,7 +55,7 @@ export default function Judges() {
             </div>
             <h2 className="text-2xl">Shin Adachi</h2>
             <div className="font-sans p-4 dark:bg-white dark:text-black rounded-xl abt mb-4">
-              <p>Shin is an engineer, musician, and educator from Tokyo, Japan. He's been teaching Calculus, APCSA, and Intro to CS at Khan Lab School for this past year. Shin’s engineering career has spanned many disciplines. He has worked on projects such as the ATHLETE lunar rover, the LauncherOne satellite launch vehicle, Google Fi, and the Riffit text-to-music algorithm. He also taught engineering at Synergy Academies in Los Angeles, and has spent many weekends playing Calypso music at the Six Flags theme park.</p>
+              <p>Shin is an engineer, musician, and educator from Tokyo, Japan. He&apos;s been teaching Calculus, APCSA, and Intro to CS at Khan Lab School for this past year. Shin&apos;s engineering career has spanned many disciplines. He has worked on projects such as the ATHLETE lunar rover, the LauncherOne satellite launch vehicle, Google Fi, and the Riffit text-to-music algorithm. He also taught engineering at Synergy Academies in Los Angeles, and has spent many weekends playing Calypso music at the Six Flags theme park.</p>
             </div>
             <h2 className="text-2xl">Drew Bent</h2>
             <div className="font-sans p-4 dark:bg-white dark:text-black rounded-xl abt mb-4">
