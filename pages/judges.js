@@ -59,7 +59,7 @@ export default function Judges() {
             </div>
             <h2 className="text-2xl">Drew Bent</h2>
             <div className="font-sans p-4 dark:bg-white dark:text-black rounded-xl abt mb-4">
-              <p>Drew is an MIT alumnus and co-founder of Schoolhouse.world, a free online tutoring platform that Khan Lab School has used in its curriculum. Previously, he taught at KLS as a math teacher.</p>
+              <p>Drew is co-founder and COO of Schoolhouse.world. He previously wrote code at Khan Academy, taught high school math at Khan Lab School, and has been tutoring for a decade. He studied physics and computer science at MIT, and has an education master&apos;s from Stanford.</p>
             </div>
           </section>
         </section>
