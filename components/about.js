@@ -12,7 +12,7 @@ export default function About() {
                 We each fell in love with computer science through a mix of attending hackathons and working on independent projects.
                 We aim to provide an environment for our middle and high school participants to innovate based on their experiences in all kinds of Bay Area schools.
                 <br /><br />
-                If you're interested in sponsoring or participating in our next hackathon, please email us!
+                If you&apos;re interested in sponsoring or participating in our next hackathon, please email us!
             </p>
         </div>
     );
