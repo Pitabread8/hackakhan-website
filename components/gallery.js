@@ -3,7 +3,7 @@ import Image from 'next/image'
 function Photo(props) {
     return (
         <Image className={`w-full h-auto rounded-lg ${props.style}`}
-            src={`/photos/${props.src}.jpg`}
+            src={props.src}
             width={0}
             height={0}
             alt="HackaKhan Photograph"
@@ -15,10 +15,11 @@ function Photo(props) {
 export default function Gallery() {
     const imgs = [];
     for (let i = 2; i <= 9; i++) {
+        const url = `/photos/${i}.jpg`
         if (i === 4 || i === 5) {
-            imgs.push(<Photo key={i.toString()} src={i} style="md:col-span-2" />);
+            imgs.push(<Photo key={i.toString()} src={url} style="md:col-span-2" />);
         } else {
-            imgs.push(<Photo key={i.toString()} src={i} />);
+            imgs.push(<Photo key={i.toString()} src={url} style="md:col-span-1" />);
         }
     }
     return (
