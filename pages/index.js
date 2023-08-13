@@ -27,12 +27,12 @@ export default function Site() {
       </Head>
       <main>
         {/* <NavBar></NavBar> */}
-        <section className="w-screen h-screen flex justify-center items-center flex-col gap-2">
-        {/* <section className="w-screen h-screen bg-no-repeat bg-cover bg-center bg-fixed md:bg-[url('/photos/1.jpg')]"> */}
+        {/* <section className="w-screen h-screen flex justify-center items-center flex-col gap-2"> */}
+        <section className="w-screen h-screen bg-no-repeat bg-cover bg-center bg-fixed md:bg-[url('/photos/1.JPG')]">
           {/* <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
           </div> */}
-          {/* <div className="w-screen h-screen flex justify-center items-center flex-col gap-2 dark:md:backdrop-brightness-50"> */}
+          <div className="w-screen h-screen flex justify-center items-center flex-col gap-2 dark:md:backdrop-brightness-50">
             <Image className="mb-4"
               src={Logo}
               width={128}
@@ -61,13 +61,13 @@ export default function Site() {
             {/* <Link href="#info" scroll={false} className="scroll-smooth"> */}
             <FaLongArrowAltDown className="mt-4" size={64} />
             {/* </Link> */}
-          {/* </div> */}
+          </div>
         </section>
         {/* <hr className="w-screen h-2 bg-black dark:bg-white" /> */}
         <section className="w-full md:w-3/4 h-fit md:mb-16 flex flex-col gap-8 items-center justify-center pt-8 px-2 md:px-20">
           <About></About>
           <Sponsors></Sponsors>
-          {/* <Gallery></Gallery> */}
+          <Gallery></Gallery>
         </section>
         {/* <section className="w-screen h-max mt-4 md:mt-8 md:mb-16 flex flex-col gap-8 items-center justify-center px-2 md:px-20 md:flex-row md:items-start">
           <Schedule></Schedule>

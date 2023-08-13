@@ -15,7 +15,7 @@ function Photo(props) {
 export default function Gallery() {
     const imgs = [];
     for (let i = 2; i <= 9; i++) {
-        const url = `/photos/${i}.jpg`
+        const url = `/photos/${i}.JPG`
         if (i === 4 || i === 5) {
             imgs.push(<Photo key={i.toString()} src={url} style="md:col-span-2" />);
         } else {
