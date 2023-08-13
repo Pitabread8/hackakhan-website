@@ -30,7 +30,7 @@ export default function Site() {
         {/* <section className="w-screen h-screen bg-no-repeat bg-cover bg-center bg-fixed md:bg-[url('/photos/1.jpg')]"> */}
         <section className="w-screen h-screen">
           <Image className="-z-50 object-cover"
-            src={`/photos/1.jpg`}
+            src={`/../public/photos/1.jpg`}
             alt="HackaKhan Photograph"
             fill
           />
