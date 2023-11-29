@@ -28,7 +28,7 @@ export default function Site() {
       <main>
         {/* <NavBar></NavBar> */}
         {/* <section className="w-screen h-screen flex justify-center items-center flex-col gap-2"> */}
-        <section className="w-screen h-screen bg-no-repeat bg-cover bg-center bg-fixed md:bg-[url('/photos/1.JPG')]">
+        <section className="w-screen h-screen bg-no-repeat bg-cover bg-center bg-fixed bg-none md:bg-[url('/photos/1.JPG')]">
           {/* <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
           </div> */}
