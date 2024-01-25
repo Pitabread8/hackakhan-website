@@ -32,7 +32,7 @@ export default function Site() {
           {/* <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
           </div> */}
-          <div className="w-screen h-screen flex justify-center items-center flex-col gap-2 dark:md:backdrop-brightness-50">
+          <div className="w-screen h-screen flex justify-center items-center flex-col gap-2 md:backdrop-brightness-50 text-white">
             <Image className="mb-4"
               src={Logo}
               width={128}

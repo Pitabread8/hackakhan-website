@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function NavBar() {
     return (
-        <nav className="bg-purple px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
+        <nav className="bg-red px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
             <div className="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="#intro" className="flex items-center">
                     <Image src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo"></Image>
@@ -12,13 +12,13 @@ export default function NavBar() {
                 <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
                         <li>
-                            <Link href="#sponsors" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-green md:p-0">Sponsors</Link>
+                            <Link href="#sponsors" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-yellow md:p-0">Sponsors</Link>
                         </li>
                         <li>
-                            <Link href="#faq" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-green md:p-0">FAQ</Link>
+                            <Link href="#faq" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-yellow md:p-0">FAQ</Link>
                         </li>
                         <li>
-                            <Link href="/pre-register" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-green md:p-0">Pre-Register</Link>
+                            <Link href="/pre-register" scroll={false} className="block py-2 pl-3 pr-4 text-white dark:text-black md:hover:text-yellow md:p-0">Pre-Register</Link>
                         </li>
                     </ul>
                 </div>
