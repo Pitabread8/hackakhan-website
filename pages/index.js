@@ -4,7 +4,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '/public/logo.png'
-import cover from '/public/photos/1.JPG'
+// import cover from '/public/photos/1.JPG'
 // import Link from 'next/link'
 // import NavBar from '../components/navbar'
 import About from '/components/about'
@@ -35,7 +35,7 @@ export default function Site() {
           </div> */}
           <div className="w-screen h-screen fixed -z-10">
             <Image
-              src={cover}
+              src={'/photos/1.JPG'}
               fill
               style={{ objectFit: "cover" }}
               alt="HackaKhan Background Photo"
