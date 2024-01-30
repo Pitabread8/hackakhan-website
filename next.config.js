@@ -11,11 +11,6 @@ module.exports = {
       //   permanent: false,
       // },
       // {
-      //   source: '/prospectus',
-      //   destination: 'https://drive.google.com/file/d/1ur_ZsYZbZkSXKHa9fWo_soazs_In-4Ez/view',
-      //   permanent: false,
-      // },
-      // {
       //   source: '/discord',
       //   destination: 'https://discord.gg/AyEycmKE',
       //   permanent: false,

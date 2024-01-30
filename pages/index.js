@@ -29,9 +29,9 @@ export default function Site() {
         {/* <NavBar></NavBar> */}
         {/* <section className="w-screen h-screen flex justify-center items-center flex-col gap-2"> */}
         <section className="w-screen h-screen">
-          {/* <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white z-10">
-            <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
-          </div> */}
+          <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white z-10">
+            <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus.pdf" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
+          </div>
           <div className="hidden md:block md:w-screen md:h-screen md:fixed md:-z-10">
             <Image
               src={'/photos/1.JPG'}
