@@ -32,7 +32,7 @@ export default function Site() {
           {/* <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white z-10">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
           </div> */}
-          <div className="w-screen h-screen fixed -z-10">
+          <div className="hidden md:block md:w-screen md:h-screen md:fixed md:-z-10">
             <Image
               src={'/photos/1.JPG'}
               fill
@@ -74,13 +74,13 @@ export default function Site() {
           </div>
         </section>
         {/* <hr className="w-screen h-2 bg-black dark:bg-white" /> */}
-        <div className="w-screen bg-black flex items-center justify-center">
-          <section className="w-full md:w-3/4 h-fit md:mb-16 flex flex-col gap-8 items-center justify-center pt-8 px-2 md:px-20">
+        <section className="w-screen bg-white dark:bg-black flex items-center justify-center">
+          <div className="w-full md:w-3/4 h-fit md:mb-16 flex flex-col gap-8 items-center justify-center pt-8 px-2 md:px-20">
             <About></About>
             <Sponsors></Sponsors>
             <Gallery></Gallery>
-          </section>
-        </div>
+          </div>
+        </section>
         {/* <section className="w-screen h-max mt-4 md:mt-8 md:mb-16 flex flex-col gap-8 items-center justify-center px-2 md:px-20 md:flex-row md:items-start">
           <Schedule></Schedule>
           <Map></Map>
