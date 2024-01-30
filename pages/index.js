@@ -30,20 +30,21 @@ export default function Site() {
         {/* <NavBar></NavBar> */}
         {/* <section className="w-screen h-screen flex justify-center items-center flex-col gap-2"> */}
         <section className="w-screen h-screen">
-          <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white">
+          {/* <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white z-10">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
-          </div>
+          </div> */}
           <div className="w-screen h-screen fixed -z-10">
             <Image
               src={cover}
               fill
               style={{ objectFit: "cover" }}
+              alt="HackaKhan Background Photo"
             />
           </div>
           <div className="w-screen h-screen flex justify-center items-center flex-col gap-2 md:backdrop-brightness-50 text-white">
             <Image className="mb-4"
               src={Logo}
-              width={128}
+              width={150}
               alt="HackaKhan Logo"
             />
             <h1 className="mb-4 text-5xl font-bold md:text-6xl lg:text-7xl">HackaKhan</h1>
