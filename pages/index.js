@@ -4,6 +4,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '/public/logo.png'
+import cover from '/public/photos/1.JPG'
 // import Link from 'next/link'
 // import NavBar from '../components/navbar'
 import About from '/components/about'
@@ -28,10 +29,17 @@ export default function Site() {
       <main>
         {/* <NavBar></NavBar> */}
         {/* <section className="w-screen h-screen flex justify-center items-center flex-col gap-2"> */}
-        <section className="w-screen h-screen bg-no-repeat bg-cover bg-center bg-fixed bg-none md:bg-[url('/photos/1.JPG')]">
-          {/* <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white">
+        <section className="w-screen h-screen">
+          <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
-          </div> */}
+          </div>
+          <div className="w-screen h-screen fixed -z-10">
+            <Image
+              src={cover}
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </div>
           <div className="w-screen h-screen flex justify-center items-center flex-col gap-2 md:backdrop-brightness-50 text-white">
             <Image className="mb-4"
               src={Logo}
@@ -42,16 +50,16 @@ export default function Site() {
             <div className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">
               <Typewriter onInit={(typewriter) => {
                 typewriter
-                  .typeString("Coming soon").start()
-                // .pauseFor(500)
-                // .typeString("<br>Mountain View CA").start()
+                  .typeString("June 10 2023").start()
+                  .pauseFor(500)
+                  .typeString("<br>Mountain View CA").start()
               }} />
             </div>
             <div className="flex justify-center items-center gap-3 mb-4 h-auto">
               <a href="https://www.instagram.com/hackakhan_" target="_blank" rel="noreferrer" aria-label="Instagram">
                 <FaInstagram size={48} />
               </a>
-              <a href="mailto:hackakhancontact@gmail.com" target="_blank" rel="noreferrer" aria-label="Email">
+              <a href="mailto:contact@hackakhan.org" target="_blank" rel="noreferrer" aria-label="Email">
                 <FaRegEnvelope size={48} />
               </a>
             </div>
@@ -64,11 +72,13 @@ export default function Site() {
           </div>
         </section>
         {/* <hr className="w-screen h-2 bg-black dark:bg-white" /> */}
-        <section className="w-full md:w-3/4 h-fit md:mb-16 flex flex-col gap-8 items-center justify-center pt-8 px-2 md:px-20">
-          <About></About>
-          <Sponsors></Sponsors>
-          <Gallery></Gallery>
-        </section>
+        <div className="w-screen bg-black flex items-center justify-center">
+          <section className="w-full md:w-3/4 h-fit md:mb-16 flex flex-col gap-8 items-center justify-center pt-8 px-2 md:px-20">
+            <About></About>
+            <Sponsors></Sponsors>
+            <Gallery></Gallery>
+          </section>
+        </div>
         {/* <section className="w-screen h-max mt-4 md:mt-8 md:mb-16 flex flex-col gap-8 items-center justify-center px-2 md:px-20 md:flex-row md:items-start">
           <Schedule></Schedule>
           <Map></Map>
