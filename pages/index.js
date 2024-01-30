@@ -4,7 +4,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '/public/logo.png'
-// import cover from '/public/photos/1.JPG'
 // import Link from 'next/link'
 // import NavBar from '../components/navbar'
 import About from '/components/about'
@@ -38,6 +37,8 @@ export default function Site() {
               src={'/photos/1.JPG'}
               fill
               style={{ objectFit: "cover" }}
+              quality={100}
+              priority
               alt="HackaKhan Background Photo"
             />
           </div>
