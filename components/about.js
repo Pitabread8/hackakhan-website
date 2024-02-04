@@ -5,14 +5,19 @@ export default function About() {
             <p className="font-sans p-4 dark:bg-white dark:text-black rounded-xl abt">
                 HackaKhan, <a href="https://khanlabschool.org/" target="_blank" rel="noreferrer" className="underline">
                     Khan Lab School
-                </a>&apos;s annual hackathon, is open to all middle and high school students aged 13 to 18 in the Bay Area.
-                Teams may consist of up to four participants, and previous coding experience is not required.
+                </a>&apos;s annual hackathon, will take place on June 8th, 2024 from 8:30 am to 11:00 pm.
+                It will be at the KLS campus in Mountain View, CA, and is open to all middle and high school students aged 13 to 18 in the Bay Area.
+                The theme is <a href="https://en.wikipedia.org/wiki/Educational_technology" target="_blank" rel="noreferrer" className="underline">
+                    Education Technology
+                </a>. Teams may include up to four participants, and previous coding experience is not required.
                 <br /><br />
-                The HackaKhan team consists of four high schoolers who are passionate about using technology for social good.
+                The HackaKhan team consists of three high schoolers who are passionate about using technology for social good and want to share our unique opportunities with the wider community.
                 We each fell in love with computer science through a mix of attending hackathons and working on independent projects.
-                We aim to provide an environment for our middle and high school participants to innovate based on their experiences in all kinds of Bay Area schools.
-                <br /><br />
-                If you&apos;re interested in sponsoring or participating in our next hackathon, please email us!
+                The buzz around <a href="https://www.khanacademy.org/khan-labs" target="_blank" rel="noreferrer" className="underline">
+                    Khanmigo
+                </a> and <a href="https://openai.com/blog/chatgpt" target="_blank" rel="noreferrer" className="underline">
+                    Chat-GPT
+                </a>  inspired us to create an event for students to innovate and explore computer science. We want our attendees to draw upon their diverse experiences to redefine education and the use of technology in classrooms.
             </p>
         </div>
     );
