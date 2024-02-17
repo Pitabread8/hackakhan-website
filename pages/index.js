@@ -1,6 +1,3 @@
-// move global css to tailwind style
-// add stats (to photos?)
-
 import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '/public/logo.png'
@@ -26,8 +23,6 @@ export default function Site() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <NavBar></NavBar> */}
-        {/* <section className="w-screen h-screen flex justify-center items-center flex-col gap-2"> */}
         <section className="w-screen h-screen">
           <div className="w-screen fixed top-0 text-center opacity-90 hidden md:block lg:block bg-black dark:bg-white z-10">
             <p className="my-4 text-base text-white md:text-lg lg:text-xl dark:text-black">Want to support HackaKhan? Read our <a href="/prospectus.pdf" target="_blank" rel="noreferrer" aria-label="Prospectus" className="underline">sponsorship prospectus</a>.</p>
@@ -52,7 +47,7 @@ export default function Site() {
             <div className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">
               <Typewriter onInit={(typewriter) => {
                 typewriter
-                  .typeString("June 10 2023").start()
+                  .typeString("June 8 2024").start()
                   .pauseFor(500)
                   .typeString("<br>Mountain View CA").start()
               }} />
