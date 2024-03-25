@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '/public/logo.png'
-// import Link from 'next/link'
+import Link from 'next/link'
 // import NavBar from '../components/navbar'
 import About from '/components/about'
 import Sponsors from '/components/sponsors'
@@ -60,12 +60,10 @@ export default function Site() {
                 <FaRegEnvelope size={48} />
               </a>
             </div>
-            {/* <Link href="/waitlist" scroll={false} className="mt-6 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black"> */}
-            {/* <p className="text-2x md:text-3xl lg:text-4xl">Join the Waitlist!</p> */}
-            {/* </Link> */}
-            {/* <Link href="#info" scroll={false} className="scroll-smooth"> */}
+            <Link href="/pre-register" scroll={false} className="mt-6 p-4 border-4 rounded-xl border-black dark:border-white hover:bg-black hover:dark:bg-white hover:text-white hover:dark:text-black">
+              <p className="text-2x md:text-3xl lg:text-4xl">Pre-Register!</p>
+            </Link>
             <FaLongArrowAltDown className="mt-4" size={64} />
-            {/* </Link> */}
           </div>
         </section>
         {/* <hr className="w-screen h-2 bg-black dark:bg-white" /> */}
