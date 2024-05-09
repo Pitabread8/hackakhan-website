@@ -6,8 +6,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/pre-register',
-        destination: 'https://docs.google.com/forms/d/e/1FAIpQLSdTS4YPP9S3nv9hRs-eiXlWGjJNhQkyik0h-WDacmlYgZBYug/viewform?usp=sf_link',
+        source: '/register',
+        destination: 'https://docs.google.com/forms/d/e/1FAIpQLSf2nxLNU3rzZ-kpiV19vN6uXCsjRBuPSfLY1my7Zhe_rpVHJg/viewform?usp=sf_link',
         permanent: false,
       },
       // {
