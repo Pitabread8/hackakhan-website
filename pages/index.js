@@ -6,8 +6,8 @@ import Link from 'next/link'
 import About from '/components/about'
 import Sponsors from '/components/sponsors'
 import Gallery from '/components/gallery'
-// import Schedule from '../components/schedule'
-// import Map from '../components/map'
+import Schedule from '../components/schedule'
+import Map from '../components/map'
 import Typewriter from 'typewriter-effect';
 import { FaInstagram } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
@@ -67,17 +67,16 @@ export default function Site() {
           </div>
         </section>
         {/* <hr className="w-screen h-2 bg-black dark:bg-white" /> */}
-        <section className="w-screen bg-white dark:bg-black flex items-center justify-center">
-          <div className="w-full md:w-3/4 h-fit md:mb-16 flex flex-col gap-8 items-center justify-center pt-8 px-2 md:px-20">
+        <section className="w-screen bg-white dark:bg-black">
+          <div className="w-screen h-max mb-4 md:mb-8 flex flex-col gap-8 items-center justify-center px-2 md:px-20 md:flex-row md:items-start">
             <About></About>
             <Sponsors></Sponsors>
-            <Gallery></Gallery>
+          </div>
+          <div className="w-screen h-max mt-4 md:mt-8 md:mb-16 flex flex-col gap-8 items-center justify-center px-2 md:px-20 md:flex-row md:items-start">
+            <Schedule></Schedule>
+            <Map></Map>
           </div>
         </section>
-        {/* <section className="w-screen h-max mt-4 md:mt-8 md:mb-16 flex flex-col gap-8 items-center justify-center px-2 md:px-20 md:flex-row md:items-start">
-          <Schedule></Schedule>
-          <Map></Map>
-        </section> */}
         <footer className="w-screen text-center bg-white dark:bg-black dark:text-white fixed bottom-0 py-4 hidden md:block md:text-lg lg:text-xl">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
       </main>
     </>

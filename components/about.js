@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="bg-white dark:bg-black px-4 py-2.5 flex flex-col justify-center items-center">
+        <div className="bg-white dark:bg-black md:w-1/2 px-4 py-2.5 flex flex-col justify-center items-center self-stretch">
             <h2 className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">About</h2>
             <p className="font-sans p-4 dark:bg-white dark:text-black rounded-xl abt">
                 HackaKhan, <a href="https://khanlabschool.org/" target="_blank" rel="noreferrer" className="underline">
