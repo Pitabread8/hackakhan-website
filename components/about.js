@@ -5,7 +5,7 @@ export default function About() {
             <p className="font-sans p-4 dark:bg-white dark:text-black rounded-xl abt">
                 HackaKhan, <a href="https://khanlabschool.org/" target="_blank" rel="noreferrer" className="underline">
                     Khan Lab School
-                </a>&apos;s annual hackathon, is back! It will take place on June 8th, 2024 from 8:30 am to 10:00 pm, at the KLS campus in Mountain View, CA. The event is open to all middle and high school students aged 13 to 18 in the Bay Area.
+                </a>&apos;s annual hackathon, is back! It will take place on June 8th, 2024 from 8:30 am to 10:30 pm, at the KLS campus in Mountain View, CA. The event is open to all middle and high school students aged 13 to 18 in the Bay Area.
                 It's completely free and no previous coding experience is required! The theme is <a href="https://en.wikipedia.org/wiki/Educational_technology" target="_blank" rel="noreferrer" className="underline">
                     Education Technology
                 </a>.

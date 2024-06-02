@@ -1,3 +1,5 @@
+// FIX AM AND PM FOR MOBILE
+
 export default function Schedule() {
     return (
         <div className="bg-white dark:bg-black md:w-1/2 px-2 sm:px-4 py-2.5 flex justify-center items-center flex-col self-stretch">
@@ -49,10 +51,6 @@ export default function Schedule() {
                     <tr>
                         <td>Closing Ceremony</td>
                         <td><time>9:30 PM</time></td>
-                    </tr>
-                    <tr>
-                        <td>Departure</td>
-                        <td><time>10:00 PM</time></td>
                     </tr>
                 </tbody>
             </table>

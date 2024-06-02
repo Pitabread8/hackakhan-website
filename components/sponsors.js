@@ -1,3 +1,5 @@
+// FIX SPONSOR SECTION HEIGHT
+
 import Image from 'next/image'
 import KLS from '/public/sponsors/kls.png'
 import VaSi from '/public/sponsors/vasi.png'
