@@ -33,10 +33,6 @@ export default function Schedule() {
                         <td><time>12:00 PM</time></td>
                     </tr>
                     <tr>
-                        <td>Java GUI Workshop</td>
-                        <td><time>1:00 PM</time></td>
-                    </tr>
-                    <tr>
                         <td>Dinner (provided): Costco Pizza</td>
                         <td><time>6:00 PM</time></td>
                     </tr>
