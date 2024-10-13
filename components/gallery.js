@@ -21,7 +21,7 @@ export default function Gallery() {
     }
     return (
         <div className="bg-white dark:bg-black px-4 py-2.5">
-            <h2 className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">Photos from June 2023</h2>
+            <h2 className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">Photos from Previous Events</h2>
             <div className="bg-white p-4 rounded-lg grid md:grid-cols-2 gap-4">
                 <div className="grid md:grid-cols-2 gap-4">
                     {imgs.splice(0, 3)}

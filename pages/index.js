@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '/public/logo.png'
 import Link from 'next/link'
-// import NavBar from '../components/navbar'
 import About from '/components/about'
 import Sponsors from '/components/sponsors'
 import Gallery from '/components/gallery'
@@ -44,14 +43,12 @@ export default function Site() {
               alt="HackaKhan Logo"
             />
             <h1 className="mb-4 text-5xl font-bold md:text-6xl lg:text-7xl">HackaKhan</h1>
-            {/* <div className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">
+            <div className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">
               <Typewriter onInit={(typewriter) => {
                 typewriter
-                  .typeString("June 8 2024").start()
-                  .pauseFor(500)
-                  .typeString("<br>Mountain View CA").start()
+                  .typeString("Coming soon").start()
               }} />
-            </div> */}
+            </div>
             <div className="flex justify-center items-center gap-3 mb-4 h-auto">
               <a href="https://www.instagram.com/hackakhan_" target="_blank" rel="noreferrer" aria-label="Instagram">
                 <FaInstagram size={48} />
@@ -77,6 +74,13 @@ export default function Site() {
             <Map></Map>
           </div>
         </section> */}
+        <section className="w-screen bg-white dark:bg-black flex items-center justify-center">
+          <div className="w-full md:w-3/4 h-fit md:mb-16 flex flex-col gap-8 items-center justify-center pt-8 px-2 md:px-20">
+            <About></About>
+            <Sponsors></Sponsors>
+            <Gallery></Gallery>
+          </div>
+        </section>
         <footer className="w-screen text-center bg-white dark:bg-black dark:text-white fixed bottom-0 py-4 hidden md:block md:text-lg lg:text-xl">&copy; {new Date().getFullYear()} HackaKhan. All Rights Reserved.</footer>
       </main>
     </>

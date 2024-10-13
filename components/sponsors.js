@@ -10,9 +10,11 @@ import Wolfram from '/public/sponsors/wolfram.png'
 
 export default function Sponsors() {
     return (
-        <div className="bg-white dark:bg-black md:w-1/2 px-4 py-2.5 flex flex-col justify-center items-center self-stretch">
-            <h2 className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">Sponsors</h2>
-            <div className="grid grid-cols-3 grid-rows-2 p-4 gap-4 items-center justify-center dark:bg-white rounded-xl">
+        <div className="bg-white dark:bg-black px-4 py-2.5 flex flex-col justify-center items-center self-stretch">
+            {/* md:w-1/2 */}
+            <h2 className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">Past Sponsors</h2>
+            <div className="grid grid-cols-6 grid-rows-1 p-4 gap-4 items-center justify-center dark:bg-white rounded-xl">
+            {/* grid-cols-3 grid-rows-2 */}
             {/* <div className="p-4 flex flex-row justify-center items-center dark:bg-white rounded-xl gap-1 md:flex-col lg:flex-row w-full h-full"> */}
             {/* <div className="grid grid-cols-3 grid-rows-2 p-4 justify-center items-center dark:bg-white rounded-xl gap-4 md:grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 w-full h-full"> */}
                 <a href="https://metarch.ai/" target="_blank" rel="noreferrer">
