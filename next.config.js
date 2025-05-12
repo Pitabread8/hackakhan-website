@@ -5,16 +5,16 @@ module.exports = {
 
   async redirects() {
     return [
-      // {
-      //   source: '/register',
-      //   destination: 'https://docs.google.com/forms/d/e/1FAIpQLSf2nxLNU3rzZ-kpiV19vN6uXCsjRBuPSfLY1my7Zhe_rpVHJg/viewform?usp=sf_link',
-      //   permanent: false,
-      // },
       {
-        source: '/waitlist',
-        destination: 'https://forms.gle/oWA7iKGEg8WUSXbp8',
+        source: '/register',
+        destination: 'https://docs.google.com/forms/d/e/1FAIpQLSf63JwhRUEEuEbY0YZ_zgTjztkqPKKCn6TMQPhPVWPL-vWYNg/viewform?usp=dialog',
         permanent: false,
       },
+      // {
+      //   source: '/waitlist',
+      //   destination: 'https://forms.gle/oWA7iKGEg8WUSXbp8',
+      //   permanent: false,
+      // },
       {
         source: '/discord',
         destination: 'https://discord.gg/P7kwYHAEM6',
