@@ -46,7 +46,9 @@ export default function Site() {
             <div className="mb-4 text-center text-xl md:text-2xl lg:text-3xl">
               <Typewriter onInit={(typewriter) => {
                 typewriter
-                  .typeString("Coming soon").start()
+                  .typeString("June 8 2025").start()
+                  .pauseFor(500)
+                  .typeString("<br>Mountain View CA").start()
               }} />
             </div>
             <div className="flex justify-center items-center gap-3 mb-4 h-auto">
@@ -76,7 +78,10 @@ export default function Site() {
         </section> */}
         <section className="w-screen bg-white dark:bg-black flex items-center justify-center">
           <div className="w-full md:w-3/4 h-fit md:mb-16 flex flex-col gap-8 items-center justify-center pt-8 px-2 md:px-20">
-            <About></About>
+            <div className="h-max mb-4 flex flex-col gap-8 items-center justify-center md:flex-row md:items-start">
+              <About></About>
+              <Map></Map>
+            </div>
             <Sponsors></Sponsors>
             <Gallery></Gallery>
           </div>

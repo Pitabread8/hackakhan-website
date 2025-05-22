@@ -26,8 +26,6 @@ export default function About() {
                 <br /><br />
                 The HackaKhan team consists of three high schoolers who are passionate about using technology for social good and want to share our unique opportunities with the wider community.
                 We each fell in love with computer science through a mix of attending hackathons and working on independent projects.
-                <br /><br />
-                If you&apos;re interested in sponsoring or participating in our next hackathon, please <a href="mailto:contact@hackakhan.org" target="_blank" rel="noreferrer" className="underline">email us</a>!
             </p>
         </div>
     );
