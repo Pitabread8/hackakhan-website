@@ -24,7 +24,7 @@ export default function About() {
                     Khan Lab School
                 </a>&apos;s annual hackathon, is open to all middle and high school students aged 13 to 18 in the Bay Area. Teams may consist of up to four participants, and previous coding experience is not required.
                 <br /><br />
-                The HackaKhan team consists of three high schoolers who are passionate about using technology for social good and want to share our unique opportunities with the wider community.
+                The HackaKhan team consists of six high schoolers who are passionate about using technology for social good and want to share our unique opportunities with the wider community.
                 We each fell in love with computer science through a mix of attending hackathons and working on independent projects.
             </p>
         </div>
